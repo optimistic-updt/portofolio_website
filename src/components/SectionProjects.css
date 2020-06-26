@@ -1,0 +1,19 @@
+.section-projects {
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.projects-wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 50px 1%;
+  margin-top: 50px;
+}
+
+@media (max-width: 1400px) {
+  .projects-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}

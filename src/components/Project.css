@@ -1,0 +1,62 @@
+
+.project-square {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0 5px 30px #b1b1b1;
+  transition: all linear .5s;
+  overflow: hidden;
+}
+
+.project-square .project-overlay {
+  height: 100%;
+  background: linear-gradient(var(--primary), var(--secondary));
+  text-align: left;
+  padding: 19px 8% 0 8%;
+  border-radius: 20px;
+  display: block;
+  transition: all ease-out .3s;
+  opacity: 0;
+}
+
+.project-square:hover .project-overlay{
+  opacity: 0.9;
+}
+
+.project-square h6 {
+  border-bottom: 3px solid #fff;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  width: 100%;
+  transition: all ease-out .3s;
+}
+
+.project-overlay p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: .01rem;
+}
+
+.body-animation {
+  transform: translateX(100%);
+  transition: all ease-out .3s;
+}
+
+.project-square .project-overlay--keyword {
+  font-weight: 500;
+  margin-top: 2%;
+  /* margin-bottom: 5px; */
+}
+
+.project-square:hover .body-animation {
+  transform: translateX(0);
+}

@@ -1,0 +1,54 @@
+root {
+  primary: #FF69F0
+}
+
+:root {
+  /* --gradient: linear-gradient(135deg, #ae74ff,#b21f66); */
+  --primary: #FF69F0;
+  --secondary: #BB4DFF;
+  --yellow: #ffc107;
+  --text: #363940;
+  --muted: #C4C4C4;
+  --br: 5px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #363940;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 362%;
+}
+h2 {
+  font-size: 225%;
+  font-weight: 300;
+}
+h3 {
+  font-size: 200%;
+}
+h4 {
+  font-size: 175%;
+}
+h5 {
+  font-size: 150%;
+}
+h6 {
+  font-size: 112%;
+  color: #FFF;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}

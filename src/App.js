@@ -1,25 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+import { ThemeProvider } from 'theme-ui'
+import theme from './theme'
+
+// import { GlobalStyles } from './global'
+// import { ThemeProvider } from 'styled-components'
+
+// export default props => (
+//   <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
+// )
 import './App.css';
+import './grid.css';
+import './theme.css';
+
+import SectionHero from './components/SectionHero'
+import SectionProjects from './components/SectionProjects'
+import SectionAbout from './components/SectionAbout'
+import SectionContact from './components/SectionContact'
+import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <SectionHero />
+        <SectionProjects />
+        <SectionAbout />
+        <SectionContact />
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 }
 

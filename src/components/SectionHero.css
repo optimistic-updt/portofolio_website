@@ -1,0 +1,112 @@
+/* .section-hero {
+  height: 100vh;
+} */
+
+.header-navbar {
+  background-color: #ffffff;
+  opacity: .9;
+  display: flex;
+  height: 10vh;
+  /* border-bottom: 1px solid #000; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header-navbar .inner-nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.header-navbar .my-logo {
+  height: inherit;
+  margin-right: auto;
+  padding: 12px 0;  
+}
+
+.inner-nav a {
+  margin-left: 3%;
+  margin-top: 3vh;
+  text-transform: uppercase;
+  display: block;
+  height: fit-content; /* TODO */
+  letter-spacing: 2px;
+}
+
+/* ---------------------------------------------- */
+
+.button {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 0.5rem 1.5rem;
+  border-radius: var(--br);
+  letter-spacing: 1px;
+  position: relative;
+  /* margin-left: 10%; */
+}
+
+.button-text {
+  position: relative;
+  z-index: 2;
+  transition: color .5s ease;
+}
+
+.button::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br);
+  background: linear-gradient(var(--primary), var(--secondary));
+  z-index: 0;
+  transition: opacity .5s ease;
+  opacity: 0;
+}
+
+.button:hover::before {
+  opacity: 1;
+}
+
+.button:hover .button-text {
+  color: #ffffff;
+}
+
+/* ---------------------------------------------- */
+
+.section-hero .main-wrapper {
+  margin: 0 auto;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+}
+
+.section-hero--text h1 span {
+  padding-left: 30px;
+}
+
+.section-hero--hero-image {
+  justify-self: right;
+}
+
+.logo-wrapper {
+  margin-top: 50px;
+}
+
+.logo {
+  height: 50px;
+  color: var(--muted);
+  margin-right: 25px;
+}
+
+.section-hero--chevron {
+  /* margin: 0 auto; */
+  text-align: center;
+  height: 10vh;
+}

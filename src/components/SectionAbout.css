@@ -1,0 +1,34 @@
+.section-about {
+  margin: 0 auto;
+  /* background-color: red; */
+  padding-bottom: 100px;
+}
+
+.section-about--wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  margin-top: 50px;
+  border-top: 1px solid #000;
+}
+
+.section-about .sub-categories {
+  list-style: none;
+}
+
+.sub-categories li {
+  padding-bottom: 20px;
+}
+
+.sub-categories button {
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  /* font-weight: 500; */
+}
+
+.section-about--display {
+  border: 1px solid var(--primary);
+  border-radius: var(--br);
+}
