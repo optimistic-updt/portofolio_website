@@ -15,7 +15,7 @@ function SectionAbout() {
         </ul>
 
         <div className="section-about--display">
-          <p>
+          <p className="display-text-content">
             <p>I’m an aspiring</p> 
             <div className="full-stack">Full-Stack Software Developer</div> 
             <p className="p--ruby">passionate about Ruby, Rails and front-end frameworks such as ReactJs, etc.</p>

@@ -1,38 +1,33 @@
-/* .section-hero {
-  height: 100vh;
-} */
 
 .header-navbar {
   background-color: #ffffff;
   opacity: .9;
-  display: flex;
   height: 10vh;
-  /* border-bottom: 1px solid #000; */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  /* box-shadow: ; */
+  display: flex;
+  align-items: center;
 }
 
 .header-navbar .inner-nav {
   margin: 0 auto;
   display: flex;
   justify-content: flex-end;
-  align-content: center;
+  align-items: center;
 }
 
 .header-navbar .my-logo {
-  height: inherit;
   margin-right: auto;
-  padding: 12px 0;  
+  /* padding: 12px 0;   */
+  height: 50px;
 }
 
 .inner-nav a {
   margin-left: 3%;
-  margin-top: 3vh;
   text-transform: uppercase;
-  display: block;
-  height: fit-content; /* TODO */
   letter-spacing: 2px;
 }
 
@@ -80,7 +75,7 @@
 
 .section-hero .main-wrapper {
   margin: 0 auto;
-  height: 80vh;
+  height: 90vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;

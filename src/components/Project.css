@@ -2,9 +2,9 @@
 .project-square {
   background-position: center;
   background-size: cover;
-  width: 100%;
-  max-width: 300px;
-  height: 200px;
+  width: 350px;
+  /* max-width: 300px; */
+  height: 250px;
   text-align: center;
   display: flex;
   flex-direction: column;
