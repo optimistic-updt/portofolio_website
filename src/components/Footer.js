@@ -1,11 +1,15 @@
 import React from 'react';
-import './Footer.css'
+import './Footer.css';
+
+import Fade from 'react-reveal/Fade';
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faLinkedinIn, faGithub, faTwitter, faMediumM } from '@fortawesome/free-brands-svg-icons'
 
 function Footer() {
   return (
+    <Fade bottom cascade>
     <footer className="footer">
       <div className="inner-footer span_8_of_12">
         <div className="footer--text">
@@ -24,6 +28,7 @@ function Footer() {
         </span>
       </div>
     </footer>
+    </Fade>
   )
 }
 

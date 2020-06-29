@@ -1,9 +1,11 @@
 import React from 'react';
 import './SectionContact.css'
+import Fade from 'react-reveal/Fade';
 
 
 function SectionContact() {
   return(
+    <Fade bottom cascade>
     <section id="contact" className="section-contact span_8_of_12">
 
       <h3>Contact</h3>
@@ -42,6 +44,7 @@ function SectionContact() {
         </form>
       </div>
     </section>
+    </Fade>
   )
 }
 

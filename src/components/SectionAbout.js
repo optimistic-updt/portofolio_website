@@ -2,6 +2,7 @@ import React from 'react'
 import './SectionAbout.css'
 import AboutCategories from './AboutCategories'
 
+import Fade from 'react-reveal/Fade';
 
 class SectionAbout extends React.Component {
   state = {
@@ -27,6 +28,7 @@ class SectionAbout extends React.Component {
   render() {
 
     return (
+      <Fade bottom cascade>
       <section id="about" className="section-about span_8_of_12">
         <h3>About</h3>
 
@@ -85,6 +87,7 @@ class SectionAbout extends React.Component {
           </div>
         </div>
       </section>
+      </Fade>
     )
   }
 }

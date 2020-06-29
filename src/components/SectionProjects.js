@@ -1,14 +1,19 @@
 import React from 'react'
 import './SectionProjects.css'
 import Project from './Project'
+import Fade from 'react-reveal/Fade';
+
+
 
 function SectionProjects() {
   return (
+    <Fade bottom cascade>
     <section id="projects" className="section section-projects span_8_of_12">
     
       <h3>Projects</h3>
 
       <div className="projects-wrapper">
+  
         <Project 
           title="Lifeboard Dashboard" 
           description="Dashboard create from the ground-up in ReactJS" 
@@ -60,6 +65,7 @@ function SectionProjects() {
 
       </div>
     </section>
+    </Fade>
   )
 }
 
