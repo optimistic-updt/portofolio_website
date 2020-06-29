@@ -1,0 +1,17 @@
+.node-wrapper {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.node-logo {
+  height: 50px;
+}
+
+.node-logo path {
+  fill: #939393;
+  transition: all ease .5s;
+}
+
+.node-wrapper:hover path {
+  fill: #83CD29;
+}

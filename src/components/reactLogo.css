@@ -1,0 +1,17 @@
+.react-wrapper {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.react-logo {
+  height: 50px;
+}
+
+.react-logo g {
+  fill: #939393;
+  transition: all ease .5s;
+}
+
+.react-wrapper:hover g {
+  fill: #61DAFB;
+}

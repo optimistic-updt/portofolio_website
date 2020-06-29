@@ -1,11 +1,11 @@
 import React from 'react'
-import {ReactComponent as NodeLogo} from './nodelogo.svg';
+import {ReactComponent as Node} from './nodelogo.svg';
+import './nodeLogo.css'
 
-
-function NodeLogo() {
+function NodeLogo(props) {
   return (
-    <div>
-      <NodeLogo />
+    <div className={props.className + " node-wrapper"}>
+      <Node className="node-logo" />
     </div>
   )
 }

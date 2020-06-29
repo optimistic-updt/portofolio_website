@@ -4,7 +4,7 @@ import './SectionContact.css'
 
 function SectionContact() {
   return(
-    <section className="section-contact span_8_of_12">
+    <section id="contact" className="section-contact span_8_of_12">
 
       <h3>Contact</h3>
       
@@ -24,7 +24,7 @@ function SectionContact() {
         </p>
       </p>
     
-      <a href="#" className="button resume-button"><span className="button-text">download resume</span></a>
+      <a href="/images/kevin_garcia_fernandez_software_dev_dv.pdf" target="blank" className="button resume-button"><span className="button-text">download resume</span></a>
 
 
       <div className="form-section">
@@ -38,7 +38,7 @@ function SectionContact() {
             </div>
             <textarea placeholder="Your Message..." name="" id="" cols="30" rows="5" required></textarea>
           </div>
-          <button className="button"><span className="button-text">send request</span></button>
+          <button className="button"><span className="button-text">send email</span></button>
         </form>
       </div>
     </section>
