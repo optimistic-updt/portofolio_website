@@ -17,6 +17,7 @@ import Zoom from 'react-reveal/Zoom';
 function SectionHero() {
   return (
     <section className="section section-hero">
+    <Fade top delay={3000}>
       <nav className="header-navbar">
         <div className="inner-nav span_8_of_12">
         <Fade top cascade delay={3500}>
@@ -27,6 +28,7 @@ function SectionHero() {
         </Fade>
         </div>
       </nav>
+    </Fade>
 
       <div className="main-wrapper span_8_of_12">
         <Fade bottom cascade big duration={1500}>
@@ -41,17 +43,17 @@ function SectionHero() {
           </div>
         </div>
         </Fade>
-        {/* <Zoom> */}
-          <Roll delay={2500} duration={2000}>
-            <img src="/images/profile_photo.png" alt="Kevin's photo" className="section-hero--hero-image"/>
-          </Roll>
-        {/* </Zoom> */}
+        <Roll delay={2500} duration={2000}>
+          <img src="/images/profile_photo.png" alt="Kevin's photo" className="section-hero--hero-image"/>
+        </Roll>
       </div>
 
       <Fade delay={3000}>
-        <div className="section-hero--chevron">
+      <div>
+        <a href="#projects" className="section-hero--chevron">
           <Chevron />
-        </div>
+        </a>
+      </div>
       </Fade>
     </section>
   )

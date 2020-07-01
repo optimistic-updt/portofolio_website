@@ -3,7 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## To Do
 - Contact form
+PUBLISH IT
+- adding navigation arrow and active tab
 - about section styling
-- Animation
+- animation
 - Dark mode
 - 3D card

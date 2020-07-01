@@ -2,6 +2,7 @@ import React from 'react';
 import './SectionContact.css'
 import Fade from 'react-reveal/Fade';
 
+import ContactForm from './ContactForm'
 
 function SectionContact() {
   return(
@@ -28,21 +29,7 @@ function SectionContact() {
     
       <a href="/images/kevin_garcia_fernandez_software_dev_dv.pdf" target="blank" className="button resume-button"><span className="button-text">download resume</span></a>
 
-
-      <div className="form-section">
-        <h4>Drop me a line</h4>
-        <p className="chat">Let's chat business or ideas!</p>
-        <form action="">
-          <div className="form-layout span_8_of_12">
-            <div className="inputs">
-              <input type="text" placeholder="Your Name"/>
-              <input type="email"  placeholder="Your Email" required/>
-            </div>
-            <textarea placeholder="Your Message..." name="" id="" cols="30" rows="5" required></textarea>
-          </div>
-          <button className="button"><span className="button-text">send email</span></button>
-        </form>
-      </div>
+      <ContactForm />
     </section>
     </Fade>
   )
