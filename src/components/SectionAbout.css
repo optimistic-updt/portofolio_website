@@ -39,3 +39,7 @@
   width: 92%;
   padding: 20px 0 20px 0;
 }
+
+.display-text-content ul {
+  list-style: none;
+}

@@ -2,8 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## To Do
-- about section
 - Contact form
+- about section styling
 - Animation
 - Dark mode
 - 3D card
