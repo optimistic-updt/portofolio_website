@@ -1,9 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Portofolio website
 
+## [Check it out here](https://kevgarcia.me)
 
-## To Do
-PUBLISH IT
-!!make new email adress from the domain.
+## Tech Stack
+Build from scratch using ReactJS, Styled component, React Transition, Google Analytics, etc...
+Deploy on Amazon Web Services
+
+## To Do or Improve
+HOOK UP THE MAILER
 - adding navigation arrow and active tab
 - about section styling
 - animation

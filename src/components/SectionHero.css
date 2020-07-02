@@ -88,6 +88,10 @@
 
 /* ---------------------------------------------- */
 
+.section-hero {
+  margin-bottom: 5px;
+}
+
 .section-hero .main-wrapper {
   margin: 0 auto;
   height: 90vh;

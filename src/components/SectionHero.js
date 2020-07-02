@@ -31,7 +31,7 @@ function SectionHero() {
     </Fade>
 
       <div className="main-wrapper span_8_of_12">
-        <Fade bottom cascade big duration={1500}>
+        <Fade bottom cascade big duration={1200}>
         <div className="section-hero--text">
           <h1>Hey, I'm Kevin<span className="hand">👋</span></h1>
           <h2>Software Developer</h2>
@@ -43,7 +43,7 @@ function SectionHero() {
           </div>
         </div>
         </Fade>
-        <Roll delay={2500} duration={2000}>
+        <Roll delay={1700} duration={1500}>
           <img src="/images/profile_photo.png" alt="Kevin's photo" className="section-hero--hero-image"/>
         </Roll>
       </div>
