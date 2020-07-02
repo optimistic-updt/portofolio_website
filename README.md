@@ -14,3 +14,13 @@ HOOK UP THE MAILER
 - animation
 - Dark mode
 - 3D card
+
+
+Step 1
+EC2
+
+Step 2
+/var/www/<project name>
+
+Step 3 
+Setup cors for accepting my front end

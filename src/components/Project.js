@@ -12,7 +12,6 @@ class Project extends React.Component {
   deActivate = () => { this.setState({ isActive: false })}
 
   render() {
-    let { isActive } = this.state
 
     let style = {
       backgroundImage: `url(${this.props.imgURL})`
