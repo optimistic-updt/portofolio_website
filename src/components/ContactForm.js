@@ -37,7 +37,7 @@ class ContactForm extends React.Component {
       message: this.state.message
     }
 
-    axios.post('http://localhost:8080/api/test', data)
+    axios.post('http://localhost:8080/sendtome', data)
     .then(res => {
       this.setState({sent: true}, this.resetForm())
       console.log("message sent");

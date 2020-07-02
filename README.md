@@ -2,8 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## To Do
-- Contact form
 PUBLISH IT
+!!make new email adress from the domain.
 - adding navigation arrow and active tab
 - about section styling
 - animation
