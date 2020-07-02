@@ -9,6 +9,7 @@ Deploy on Amazon Web Services
 ## To Do or Improve
 HOOK UP THE MAILER
 - adding navigation arrow and active tab
+- Add media queries
 - about section styling
 - animation
 - Dark mode
