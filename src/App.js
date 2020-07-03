@@ -13,12 +13,13 @@ import './grid.css';
 import './theme.css';
 
 
-
 import SectionHero from './components/SectionHero'
 import SectionProjects from './components/SectionProjects'
 import SectionAbout from './components/SectionAbout'
 import SectionContact from './components/SectionContact'
 import Footer from './components/Footer';
+
+
 
 function App() {
   return (
