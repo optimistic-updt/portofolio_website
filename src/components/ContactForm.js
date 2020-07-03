@@ -1,7 +1,6 @@
 import React from 'react'
 import './SectionContact.css'
 
-// const axios = require('axios');
 import axios from 'axios'
 
 class ContactForm extends React.Component {
@@ -37,7 +36,7 @@ class ContactForm extends React.Component {
       message: this.state.message
     }
 
-    axios.post('http://localhost:8080/sendtome', data)
+    axios.post('https://morning-dawn-32463.herokuapp.com/sendtome', data)
     .then(res => {
       this.setState({sent: true}, this.resetForm())
       console.log("message sent");
@@ -51,16 +50,16 @@ class ContactForm extends React.Component {
 
 
   render() {
-    // let { name, email, message, buttonText } = this.state
+    let { name, email, message, buttonText } = this.state
 
     return (
       <div className="form-section">
         <h4>Drop me a line</h4>
         <p className="chat">Let's chat business or ideas!</p>
 
-        <p style={{fontWeight: 600}}>kev4tech@gmail.com</p>
-        <p className="chat">Contact Form Coming Soon</p>
-{/* 
+        {/* <p style={{fontWeight: 600}}>kev4tech@gmail.com</p>
+        <p className="chat">Contact Form Coming Soon</p> */}
+
         <form action="" onSubmit={ (e) => this.formSubmit(e)}>
           <div className="form-layout span_8_of_12">
             <div className="inputs">
@@ -95,7 +94,7 @@ class ContactForm extends React.Component {
 
           </div>
           <button className="button"><span className="button-text">{ buttonText }</span></button>
-        </form> */}
+        </form>
       </div>
     )
   }
