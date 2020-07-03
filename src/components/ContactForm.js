@@ -9,7 +9,7 @@ class ContactForm extends React.Component {
     email: "",
     message: "",
     sent: false,
-    buttonText: "send email"
+    buttonText: "disable for now"
   }
 
 
@@ -69,6 +69,7 @@ class ContactForm extends React.Component {
                 placeholder="Your Name"
                 onChange={(e)=> this.setState({name: e.target.value})}
                 value={ name }
+                disabled
               />
 
               <input 
@@ -78,11 +79,12 @@ class ContactForm extends React.Component {
                 onChange={(e)=> this.setState({email: e.target.value})}
                 value={ email }
                 required
+                disabled
               />
             </div>
 
             <textarea 
-              placeholder="Your Message..." 
+              placeholder="this section is a work in progress and will come online soon" 
               name="message" 
               id="" 
               cols="30" 
@@ -90,10 +92,11 @@ class ContactForm extends React.Component {
               onChange={(e)=> this.setState({message: e.target.value})}
               value={ message }
               required
+              disabled
             ></textarea>
 
           </div>
-          <button className="button"><span className="button-text">{ buttonText }</span></button>
+          <button className="button" disabled><span className="button-text">{ buttonText }</span></button>
         </form>
       </div>
     )
