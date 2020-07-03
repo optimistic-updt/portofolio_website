@@ -4,8 +4,6 @@ import Project from './Project'
 
 import Fade from 'react-reveal/Fade';
 
-
-
 function SectionProjects() {
   return (
     <Fade bottom cascade>
@@ -35,8 +33,7 @@ function SectionProjects() {
             description="Record people you meet and their link to each others. (You can login as t@t.com, PW: 321321)" 
             keyword="Ruby, Sinatra, Postgres, Bcrypt"
             link="https://pods-network.herokuapp.com/"
-            imgURL="/images/project-pod.png"
-              // login as t@t.com 321321   
+            imgURL="/images/project-pod.png" 
           />
 
           <Project 
@@ -57,10 +54,10 @@ function SectionProjects() {
 
           <Project 
             title="Personal Portofolio" 
-            description="My own website designed in React" 
-            keyword="React, JavaScript, AWS, Google Analytics"
+            description="My own website designed in ReactJS" 
+            keyword="ReactJS, JavaScript, AWS, Google Analytics"
             link="https://kevgarcia.me"
-            imgURL="https://www.placecage.com/300/300"   
+            imgURL="/images/project-portofolio.png"   
           />
         </div>
       </section>
