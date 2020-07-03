@@ -13,7 +13,7 @@ function Footer() {
     <footer className="footer">
       <div className="inner-footer span_8_of_12">
         <div className="footer--text">
-          <p>Built by me using ReactJS. Design help from <a href="https://www.kiranraszka.com/">Kiran</a></p>
+          <p>Built by me using ReactJS. Design help from <a href="https://www.kiranraszka.com/" target="blank">Kiran</a></p>
           <p className="copyright">
             &copy; Kevin Garcia-Fernandez 2020. All rights reserved.
           </p>

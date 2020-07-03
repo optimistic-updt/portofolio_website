@@ -27,7 +27,7 @@ function SectionContact() {
           </p>
         </p>
       
-        <a href="/images/kevin_garcia_fernandez_software_dev_dv.pdf" target="blank" className="button resume-button"><span className="button-text">download resume</span></a>
+        <a href="/images/kevin_garcia_fernandez_software_developer_resume.pdf" target="blank" className="button resume-button"><span className="button-text">download resume</span></a>
 
         <ContactForm />
       </section>
