@@ -12,7 +12,7 @@ import './App.css';
 import './grid.css';
 import './theme.css';
 
-import NavBar from './components/NavBar';
+// import NavBar from './components/NavBar';
 import SectionHero from './components/SectionHero'
 import SectionProjects from './components/SectionProjects'
 import SectionAbout from './components/SectionAbout'
@@ -23,7 +23,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        <NavBar />
+        {/* <NavBar /> */}
         <SectionHero />
         <SectionProjects />
         <SectionAbout />
