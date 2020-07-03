@@ -12,13 +12,12 @@ import './App.css';
 import './grid.css';
 import './theme.css';
 
+import NavBar from './components/NavBar';
 import SectionHero from './components/SectionHero'
 import SectionProjects from './components/SectionProjects'
 import SectionAbout from './components/SectionAbout'
 import SectionContact from './components/SectionContact'
 import Footer from './components/Footer';
-import NavBar from './components/NavBar';
-
 
 function App() {
   return (
