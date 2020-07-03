@@ -19,13 +19,13 @@ import SectionProjects from './components/SectionProjects'
 import SectionAbout from './components/SectionAbout'
 import SectionContact from './components/SectionContact'
 import Footer from './components/Footer';
-import NavBar from './components/NavBar';
+import NavigationTop from './components/NavigationTop';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        <NavBar />
+      <NavigationTop />
         <SectionHero />
         <SectionProjects />
         <SectionAbout />
