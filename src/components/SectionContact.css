@@ -72,3 +72,24 @@
 .form-section .button-text {
   color: #ffffff;
 }
+
+
+/* ------------- Media Queries ----------------- */
+/* -------------------------------------------- */
+
+@media only screen and (max-width: 736px) { 
+  .form-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .inputs {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .form-section texarea {
+    margin-top: 20px;
+  }
+}

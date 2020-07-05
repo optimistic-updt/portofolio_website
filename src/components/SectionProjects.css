@@ -18,3 +18,15 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media (max-width: 736px) {
+  .projects-wrapper {
+    grid-template-columns: 1fr;
+    height: 90vh;
+    overflow-y: scroll;
+  }
+
+  .section-projects {
+    padding-bottom: 20px;
+  }
+}

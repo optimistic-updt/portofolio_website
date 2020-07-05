@@ -21,3 +21,12 @@
   color: var(--primary);
   /* background-color: linear-gradient(var(--primary), var(--secondary)); */
 }
+
+
+@media (max-width: 736px) {
+  .footer { margin-top: 0; }
+
+  .inner-footer { flex-direction: column-reverse; }
+
+  .footer--text { margin-top: 10px; }
+}

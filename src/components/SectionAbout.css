@@ -9,7 +9,6 @@
   display: grid;
   grid-template-columns: 3fr 5fr;
   margin-top: 50px;
-  /* border-top: 1px solid #000; */
 }
 
 .section-about .sub-categories {
@@ -42,4 +41,25 @@
 
 .display-text-content ul {
   list-style: none;
+}
+.display-text-content ul li {
+  padding-bottom: .8rem;
+}
+
+
+
+
+@media (max-width: 736px) {
+  .section-about--wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+  }
+
+  .section-about .sub-categories {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: fit-content;
+  }
 }

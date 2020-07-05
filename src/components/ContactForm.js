@@ -57,8 +57,8 @@ class ContactForm extends React.Component {
         <h4>Drop me a line</h4>
         <p className="chat">Let's chat business or ideas!</p>
 
-        {/* <p style={{fontWeight: 600}}>kev4tech@gmail.com</p>
-        <p className="chat">Contact Form Coming Soon</p> */}
+        <p style={{fontWeight: 600, paddingBottom: '20px'}}>kev4tech@gmail.com</p>
+        {/* <p className="chat">Contact Form Coming Soon</p> */}
 
         <form action="" onSubmit={ (e) => this.formSubmit(e)}>
           <div className="form-layout span_8_of_12">
