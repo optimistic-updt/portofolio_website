@@ -5,18 +5,16 @@
 ![Project photo](https://github.com/CumulusGround/portofolio_website/blob/master/public/images/project-portofolio.png)
 
 ## Tech Stack
-Build from scratch using:
+Built from scratch using:
 - ReactJS
-- Styled component
+- Styled Components
 - React Transition
 - Google Analytics
 - etc.
 
-Deploy on Amazon Web Services
+Deployed on Amazon Web Services
 
 ## To Do or Improve
-
-HOOK UP THE MAILER
 
 - adding navigation arrow and active tab, progress bar
 - about section styling
