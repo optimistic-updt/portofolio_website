@@ -4,7 +4,7 @@ function Who() {
   return (
     <p>
       <p>
-        I’m an aspiring <span className="full-stack">Full-Stack Software Developer</span> passionate about Ruby, Rails and front-end frameworks such as ReactJs, etc.
+        I’m an aspiring <span className="full-stack">Full-Stack Software Developer</span> passionate about Ruby, Rails and front-end frameworks such as ReactJS, etc.
       </p>
       <br></br>
       <p>
