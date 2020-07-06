@@ -9,7 +9,7 @@ class ContactForm extends React.Component {
     email: "",
     message: "",
     sent: false,
-    buttonText: "disable for now"
+    buttonText: "send message"
   }
 
 
@@ -18,7 +18,7 @@ class ContactForm extends React.Component {
       name: "",
       email: "",
       message: "",
-      buttonText: "Message Sent"
+      buttonText: "message sent"
     })
   }
 
@@ -35,8 +35,6 @@ class ContactForm extends React.Component {
       email: this.state.email,
       message: this.state.message
     }
-
-    // https://morning-dawn-32463.herokuapp.com/sendtome
 
     axios.post('https://morning-dawn-32463.herokuapp.com/sendtome', data)
     .then(res => {
@@ -57,9 +55,6 @@ class ContactForm extends React.Component {
       <div className="form-section">
         <h4>Drop me a line</h4>
         <p className="chat">Let's chat business or ideas!</p>
-
-        <p style={{fontWeight: 600, paddingBottom: '20px'}}>kev4tech@gmail.com</p>
-        {/* <p className="chat">Contact Form Coming Soon</p> */}
 
         <form action="" onSubmit={ (e) => this.formSubmit(e)}>
           <div className="form-layout span_8_of_12">
@@ -85,7 +80,7 @@ class ContactForm extends React.Component {
             </div>
 
             <textarea 
-              placeholder="this section is a work in progress and will come online soon" 
+              placeholder="Your Message..." 
               name="message" 
               id="" 
               cols="30" 
@@ -97,7 +92,7 @@ class ContactForm extends React.Component {
             ></textarea>
 
           </div>
-          <button className="button" ><span className="button-text">{ buttonText }</span></button>
+          <button className="button"><span className="button-text">{ buttonText }</span></button>
         </form>
       </div>
     )
