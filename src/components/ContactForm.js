@@ -38,7 +38,7 @@ class ContactForm extends React.Component {
 
     // https://morning-dawn-32463.herokuapp.com/sendtome
 
-    axios.post('http://localhost:8080/sendtome', data)
+    axios.post('https://morning-dawn-32463.herokuapp.com/sendtome', data)
     .then(res => {
       this.setState({sent: true}, this.resetForm())
       console.log("message sent");
