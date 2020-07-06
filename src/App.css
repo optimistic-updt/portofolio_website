@@ -9,3 +9,17 @@
   margin: 0 auto;
   /* background-color: green; */
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+background: var(--secondary);
+border-radius: 7px; 
+}
+::-webkit-scrollbar-thumb:hover {
+background: #c86fff; 
+}
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px grey; 
+}
