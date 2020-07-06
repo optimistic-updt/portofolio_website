@@ -13,7 +13,7 @@ import Roll from 'react-reveal/Roll';
 function SectionHero() {
   return (
     <section id="home" className="section section-hero">
-      {/* <Fade top delay={3000}>
+      <Fade top delay={3000}>
         <nav className="header-navbar">
           <div className="inner-nav span_8_of_12">
           <Fade top cascade delay={3500}>
@@ -24,7 +24,7 @@ function SectionHero() {
           </Fade>
           </div>
         </nav>
-      </Fade> */}
+      </Fade>
 
 
       <div className="main-wrapper span_8_of_12">
