@@ -36,7 +36,9 @@ class ContactForm extends React.Component {
       message: this.state.message
     }
 
-    axios.post('https://morning-dawn-32463.herokuapp.com/sendtome', data)
+    // https://morning-dawn-32463.herokuapp.com/sendtome
+
+    axios.post('http://localhost:8080/sendtome', data)
     .then(res => {
       this.setState({sent: true}, this.resetForm())
       console.log("message sent");
@@ -45,7 +47,6 @@ class ContactForm extends React.Component {
       console.log("message not Sent");
       alert("message not sent")
     })
-
   }
 
 
@@ -69,7 +70,7 @@ class ContactForm extends React.Component {
                 placeholder="Your Name"
                 onChange={(e)=> this.setState({name: e.target.value})}
                 value={ name }
-                disabled
+                // disabled
               />
 
               <input 
@@ -79,7 +80,7 @@ class ContactForm extends React.Component {
                 onChange={(e)=> this.setState({email: e.target.value})}
                 value={ email }
                 required
-                disabled
+                // disabled
               />
             </div>
 
@@ -92,11 +93,11 @@ class ContactForm extends React.Component {
               onChange={(e)=> this.setState({message: e.target.value})}
               value={ message }
               required
-              disabled
+              // disabled
             ></textarea>
 
           </div>
-          <button className="button" disabled><span className="button-text">{ buttonText }</span></button>
+          <button className="button" ><span className="button-text">{ buttonText }</span></button>
         </form>
       </div>
     )

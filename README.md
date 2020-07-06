@@ -18,9 +18,9 @@ Deploy on Amazon Web Services
 
 HOOK UP THE MAILER
 
-- adding navigation arrow and active tab
-- Add media queries
+- adding navigation arrow and active tab, progress bar
 - about section styling
+- Insta gallery
 - animation
 - Dark mode
 - 3D card
