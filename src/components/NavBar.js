@@ -9,6 +9,25 @@ function NavBar() {
 
   //if 
 
+//   const navLink = document.querySelectorAll('.index-nav-inner a');
+
+// window.addEventListener('scroll', () => {
+//   let spot = window.pageYOffset
+
+//   navLink.forEach(link => {
+//     let section = document.querySelector(link.hash);
+    
+//     if (
+//       section.offsetTop <= spot &&
+//       section.offsetTop + section.offsetHeight > spot
+//     ) {
+//       link.classList.add('active')
+//     } else {
+//       link.classList.remove('active')
+//     }
+//   })
+// });
+
 
   return (
     <Fade top delay={3000}>
