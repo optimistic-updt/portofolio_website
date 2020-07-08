@@ -17,6 +17,7 @@ Deployed on Amazon Web Services
 ## To Do or Improve
 
 - adding navigation arrow and active tab, progress bar
+- About Sectiom, ease transition be text block
 - about section styling
 - Insta gallery
 - animation

@@ -1,7 +1,7 @@
 .section-contact {
   margin: 0 auto;
   padding-top: 100px;
-  padding-bottom: 40px;
+  padding-bottom: 70px;
 }
 
 .section-contact h3 {
@@ -25,6 +25,10 @@
 }
 
 /* ------------------------------ */
+
+.form-section {
+  margin-top: 50px;
+}
 
 .form-section .chat {
   color: var(--muted);
