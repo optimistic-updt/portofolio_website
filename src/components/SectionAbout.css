@@ -30,20 +30,46 @@
 .section-about--display {
   border: 1px solid var(--primary);
   border-radius: var(--br);
+  padding: 20px 4%;
 }
 
-.display-text-content {
+/* .display-text-content {
   margin: 0 auto;
   width: 92%;
   padding: 20px 0 20px 0;
-}
+} */
 
-.display-text-content ul {
+.section-about--display ul {
   list-style: none;
 }
-.display-text-content ul li {
+
+.section-about--display ul li {
   padding-bottom: .8rem;
 }
+
+/* ------------------------------ */
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 2000ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+/* ------------------------------ */
+
+
 
 
 

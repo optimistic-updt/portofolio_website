@@ -1,4 +1,5 @@
 import React from 'react'
+import { CSSTransitionGroup } from 'react-transition-group'
 import './SectionAbout.css'
 
 import AboutCategories from './AboutCategories'
@@ -68,10 +69,8 @@ class SectionAbout extends React.Component {
               handleClick={this.handleClick} 
             />
 
-            <div className="section-about--display">  
-              <p className="display-text-content">
-                { paragraphContent }
-              </p>
+            <div className="section-about--display"> 
+              { paragraphContent }
             </div>
           </div>
         </section>
