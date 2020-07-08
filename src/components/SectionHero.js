@@ -1,7 +1,7 @@
 import React from 'react'
 import './SectionHero.css'
 
-import NavBar from './NavBar'
+// import NavBar from './NavBar'
 
 // import {ReactComponent as MyLogo} from './KGF_logo.svg';
 import RubyLogo from './Ruby'
@@ -21,7 +21,7 @@ function SectionHero() {
   return (
     <section id="home" className="section section-hero">
     
-      <NavBar />
+      {/* <NavBar /> */}
 
       <div className="main-wrapper span_8_of_12">
         <Fade bottom cascade big duration={1200}>

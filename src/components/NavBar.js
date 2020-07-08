@@ -1,10 +1,15 @@
 import React from 'react'
+import './NavBar.css'
 
 import {ReactComponent as MyLogo} from './KGF_logo.svg';
 
 import Fade from 'react-reveal/Fade';
 
 function NavBar() {
+
+  //if 
+
+
   return (
     <Fade top delay={3000}>
     <nav className="header-navbar">
