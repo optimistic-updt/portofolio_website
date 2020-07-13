@@ -39,7 +39,7 @@ a {
 }
 
 .my-logo-mobile {
-  height: 30px;
+  height: 35px;
   width: 30px;
 }
 
@@ -59,8 +59,7 @@ a {
   z-index: 10;
   width: 100vw;
   top: 45px;
-  transform: translateX(-93%);
-  /* background-color: var(--secondary); */
+  transform: translateX(-90%);
   background: var(--gradient);
   opacity: 0.9;
   border-radius: var(--br);
