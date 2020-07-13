@@ -6,7 +6,6 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import {ReactComponent as MyLogo} from './KGF_logo.svg';
 
 
-
 function MobileNavBar() {
   return (
     <NavBarWrapper>
@@ -18,22 +17,26 @@ function MobileNavBar() {
   )
 }
 
+
+
 function NavBarWrapper(props) {
   return (
-    <nav className="mobile-nav-bar">
-      
+    <nav className="mobile-nav-bar">     
       <ul className="mobile-nav-bar-nav">{ props.children }</ul>
     </nav>
   )
 }
 
-function NavItem(props) {
+
+
+const NavItem = (props) => {
   const [open, setOpen] = useState(false)
+  const toggleMenu = () => setOpen(!open)
   return (
     <li className="mobile-nav-item">
       <button 
         className="mobile-nav-icon-button" 
-        onClick={() => setOpen(!open)}
+        onClick={toggleMenu}
       >
         { open 
         ? <FontAwesomeIcon icon={faTimes} size="2x" />
@@ -45,10 +48,11 @@ function NavItem(props) {
   )
 }
 
-function MobileDropdown() {
+
+function MobileDropdown(props) {
   return (
     <div className="mobile-nav-bar-dropdown">
-      <a href="#projects" className="links mobile-menu-item">projects</a>      
+      <a href="#projects" className="links mobile-menu-item" onClick={props.toggleMenu}>projects</a>      
       <a href="#about" className="links mobile-menu-item">about</a>
       <a href="#contact" className="links mobile-menu-item"><span className="button-text">contact</span></a>
     </div>
