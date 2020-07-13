@@ -29,9 +29,9 @@ function SectionHero() {
         </div>
         </Fade>
 
-        <Roll delay={1700} duration={1500}>
+        {/* <Roll delay={1700} duration={1500}>
           <img src="/images/profile_photo.png" alt="Kevin drinking coffee" className="section-hero--hero-image"/>
-        </Roll>
+        </Roll> */}
       </div>
 
       <Fade delay={3000}>

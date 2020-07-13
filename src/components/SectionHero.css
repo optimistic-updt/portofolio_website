@@ -46,6 +46,9 @@
 
 .section-hero {
   margin-bottom: 5px;
+  background-image: url(/images/07_KK_Portraits_10_crop.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .section-hero .main-wrapper {
