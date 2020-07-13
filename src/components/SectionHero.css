@@ -49,14 +49,24 @@
   background-image: url(/images/07_KK_Portraits_10_crop.jpg);
   background-size: cover;
   background-position: center;
+  height: 100vh;
 }
 
-.section-hero .main-wrapper {
+/* .section-hero .main-wrapper {
   margin: 0 auto;
   height: 90vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+} */
+
+.section-hero--text {
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  -moz-transform: -moz-translateY(-50%);
+  -webkit-transform: -webkit-translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .section-hero--text h1 span {
@@ -76,30 +86,21 @@
   margin-right: 25px;
 }
 
-/* .section-hero--chevron {
-  text-align: center;
-  height: 10vh;
-} */
+.chevron-position {
+  margin-top: 57vh;
+}
 
 .section-hero--chevron {
   display: block;
-  height: 10vh;
+  /* height: 10vh; */
   width: -webkit-fill-available;
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
   position: relative;
-  /* padding-top: 20px; */
-  /* -webkit-transform: translateY(-33%);
-  -moz-transform: translateY(-33%);
-  transform: translateY(-33%); */
-  /* background-color: grey; */
   animation: levitate 1.5s linear infinite;
 }
 
-/* .section-hero--chevron:hover {
-  animation: levitate 1s linear infinite;
-} */
 
 
 

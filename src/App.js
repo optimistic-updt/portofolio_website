@@ -13,11 +13,13 @@ import './grid.css';
 import './theme.css';
 
 import NavBar from './components/NavBar'
+
 import SectionHero from './components/SectionHero'
 import SectionProjects from './components/SectionProjects'
 import SectionAbout from './components/SectionAbout'
 import SectionContact from './components/SectionContact'
 import Footer from './components/Footer';
+import MobileNavBar from './components/MobileNavBar';
 
 
 
@@ -25,7 +27,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        <NavBar />
+        {/* <NavBar /> */}
+        <MobileNavBar />
         <SectionHero />
         <SectionProjects />
         <SectionAbout />
