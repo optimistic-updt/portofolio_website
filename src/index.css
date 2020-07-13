@@ -17,3 +17,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (min-width: 1900px) { 
+  body { font-size: 22px; }
+}

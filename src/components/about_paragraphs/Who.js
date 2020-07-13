@@ -1,4 +1,5 @@
 import React from 'react'
+// import '../SectionAbout.css'
 
 function Who() {
   return (

@@ -51,6 +51,12 @@ a {
 }
 
 
+
+@media (min-width: 1900px) { 
+  p { font-size: 1.3rem; }
+  button { font-size: 1.3rem; }
+}
+
 @media (max-width: 736px) { 
   h1 { font-size: 325%; }
 }

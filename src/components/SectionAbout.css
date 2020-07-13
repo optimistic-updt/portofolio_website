@@ -33,12 +33,6 @@
   padding: 20px 4%;
 }
 
-/* .display-text-content {
-  margin: 0 auto;
-  width: 92%;
-  padding: 20px 0 20px 0;
-} */
-
 .section-about--display ul {
   list-style: none;
 }
@@ -68,10 +62,6 @@
 }
 
 /* ------------------------------ */
-
-
-
-
 
 
 @media (max-width: 736px) {

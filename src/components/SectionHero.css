@@ -96,6 +96,14 @@
   100% {top: 0px;}
 }
 
+
+@media (min-width: 1600px) {
+  
+}
+
+
+
+
 /* tablet */
 @media (max-width: 1040px) {
   .kevin {
@@ -110,8 +118,10 @@
 /* mobile */
 @media (max-width: 736px) {
   .section-hero {
-    background-position: 70%;
     background-attachment: fixed;
+    background-position: 70%;
+    background-position-x: 70%;
+    background-position-y: 100%;
   }
 
   .section-hero--text { top: 38%; }

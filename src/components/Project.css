@@ -61,3 +61,10 @@
 .project-square:hover .body-animation {
   transform: translateX(0);
 }
+
+@media (min-width: 1900px) {
+  .project-square { 
+    width: 420px;
+    height: 280px;
+  }
+}
