@@ -101,6 +101,10 @@
   .kevin {
     display: block;
   }
+
+  .chevron-position {
+    display: none;
+  }
 }
 
 /* mobile */
@@ -112,6 +116,7 @@
 
   .section-hero--text { top: 38%; }
 
+  .section-hero--text h1 { margin-bottom: -5px;}
 
   .kevin { display: inline; }
 
@@ -127,12 +132,5 @@
     width: 20%;
     height: 210px;
   }
-
-  .chevron-position {
-    margin-top: 28vh;
-    margin-right: 70%;
-    /* margin-left: auto; */
-  }
-
 
 }
