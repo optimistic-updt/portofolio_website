@@ -61,15 +61,12 @@
   transform: translateY(-50%);
 }
 
-.section-hero--text h1 span {
+.section-hero--text .hand {
   padding-left: 30px;
 }
 
-.section-hero--hero-image {
-  justify-self: right;
-}
 
-.logo-wrapper {
+.icons-wrapper {
   margin-top: 50px;
 }
 
@@ -84,7 +81,6 @@
 
 .section-hero--chevron {
   display: block;
-  /* height: 10vh; */
   width: -webkit-fill-available;
   width: -moz-fit-content;
   width: fit-content;
@@ -92,9 +88,6 @@
   position: relative;
   animation: levitate 1.5s linear infinite;
 }
-
-
-
 
 @keyframes levitate {
   0% {top: 0px;}
@@ -105,14 +98,18 @@
 
 
 @media (max-width: 1040px) {
-  
+  .kevin {
+    display: block;
+  }
 }
 
 
 @media (max-width: 736px) {
+  /* .section-hero {
+    background-position: right;
+  } */
 
-  .logo-wrapper {
+  .icons-wrapper {
     margin-top: 20px;
   }
-
 }

@@ -23,6 +23,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
+      
         {/* conditionnally renders a different navar based on media queries, see below */}
         <NavBarRendering />
 
