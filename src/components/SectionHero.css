@@ -110,22 +110,15 @@
     background-attachment: fixed;
   }
 
-  .section-hero--text {
-    top: 39%;
-  }
+  .section-hero--text { top: 38%; }
 
-  .section-hero--text h1 { font-size: 310%; }
 
-  .kevin {
-    display: inline;
-  }
+  .kevin { display: inline; }
 
-  .hand {
-    display: none;
-  }
+  .hand { display: none; }
 
   .icons-wrapper {
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 7%;
     display: flex;
     flex-direction: column;
@@ -135,7 +128,11 @@
     height: 210px;
   }
 
-  /* .icons-wrapper div {
-    display: block;
-  } */
+  .chevron-position {
+    margin-top: 28vh;
+    margin-right: 70%;
+    /* margin-left: auto; */
+  }
+
+
 }
