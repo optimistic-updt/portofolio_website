@@ -1,13 +1,12 @@
-import React from 'react'
-import './SectionHero.css'
+import React from "react";
+import "./SectionHero.css";
 
-import RubyLogo from './Ruby'
-import NodeLogo from './NodeLogo'
-import ReactLogo from './ReactLogo'
-import {ReactComponent as Chevron} from './chevron.svg';
+import RubyLogo from "./Ruby";
+import NodeLogo from "./NodeLogo";
+import ReactLogo from "./ReactLogo";
+import { ReactComponent as Chevron } from "./chevron.svg";
 
-import Fade from 'react-reveal/Fade';
-
+import Fade from "react-reveal/Fade";
 
 function SectionHero() {
   return (
@@ -16,16 +15,20 @@ function SectionHero() {
         <Fade bottom cascade big duration={1200} delay={800}>
           <div className="section-hero--text span_8_of_12">
             <h1>
-              Hey, <span className="kevin">I'm Kevin
-              <span className="hand" role="img">👋</span>
-              </span> 
+              Hey,{" "}
+              <span className="kevin">
+                I'm Kevin
+                <span className="hand" role="img" aria-label="hand wave">
+                  👋
+                </span>
+              </span>
             </h1>
             <h2>Software Developer</h2>
 
             <div className="icons-wrapper">
-            <RubyLogo />
-            <ReactLogo />
-            <NodeLogo />
+              <RubyLogo />
+              <ReactLogo />
+              <NodeLogo />
             </div>
           </div>
         </Fade>
@@ -39,7 +42,7 @@ function SectionHero() {
         </Fade>
       </section>
     </Fade>
-  )
+  );
 }
 
-export default SectionHero
+export default SectionHero;
