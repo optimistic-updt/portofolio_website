@@ -1,5 +1,6 @@
 import React from "react";
 import "./SectionHero.css";
+import { jsx } from "theme-ui";
 
 import RubyLogo from "./Ruby";
 import NodeLogo from "./NodeLogo";
@@ -16,8 +17,8 @@ function SectionHero() {
           <div className="section-hero--text span_8_of_12">
             <h1>
               Hey,{" "}
-              <span className="kevin">
-                I'm Kevin
+              <span sx={{ color: "primary" }} className="kevin">
+                I&apos;m Kevin
                 <span className="hand" role="img" aria-label="hand wave">
                   👋
                 </span>
