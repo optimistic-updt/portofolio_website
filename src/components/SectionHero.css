@@ -1,5 +1,3 @@
-
-
 /* ---------------------------------------------- */
 
 .button {
@@ -15,7 +13,7 @@
 .button-text {
   position: relative;
   z-index: 2;
-  transition: color .5s ease;
+  transition: color 0.5s ease;
 }
 
 .button::before {
@@ -28,7 +26,7 @@
   border-radius: var(--br);
   background: linear-gradient(var(--primary), var(--secondary));
   z-index: 0;
-  transition: opacity .5s ease;
+  transition: opacity 0.5s ease;
   opacity: 0;
 }
 
@@ -65,7 +63,6 @@
   padding-left: 30px;
 }
 
-
 .icons-wrapper {
   margin-top: 50px;
 }
@@ -90,19 +87,22 @@
 }
 
 @keyframes levitate {
-  0% {top: 0px;}
-  50% {top: -15px;}
-  50% {top: 15px;}
-  100% {top: 0px;}
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -15px;
+  }
+  50% {
+    top: 15px;
+  }
+  100% {
+    top: 0px;
+  }
 }
-
 
 @media (min-width: 1600px) {
-
 }
-
-
-
 
 /* tablet */
 @media (max-width: 1040px) {
@@ -124,13 +124,21 @@
     background-position-y: 100%;
   }
 
-  .section-hero--text { top: 38%; }
+  .section-hero--text {
+    top: 38%;
+  }
 
-  .section-hero--text h1 { margin-bottom: -5px;}
+  .section-hero--text h1 {
+    margin-bottom: -5px;
+  }
 
-  .kevin { display: inline; }
+  .kevin {
+    display: inline;
+  }
 
-  .hand { display: none; }
+  .hand {
+    display: none;
+  }
 
   .icons-wrapper {
     margin-top: 150px;
@@ -142,5 +150,4 @@
     width: 20%;
     height: 210px;
   }
-
 }
