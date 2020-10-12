@@ -31,6 +31,7 @@
   border: 1px solid var(--primary);
   border-radius: var(--br);
   padding: 20px 4%;
+  transition: height 500ms ease-in-out;
 }
 
 .section-about--display ul {
@@ -38,31 +39,30 @@
 }
 
 .section-about--display ul li {
-  padding-bottom: .8rem;
+  padding-bottom: 0.8rem;
 }
 
 /* ------------------------------ */
 
-.example-enter {
+.display-who-enter {
   opacity: 0.01;
 }
 
-.example-enter.example-enter-active {
+.display-who-enter-active {
   opacity: 1;
   transition: opacity 2000ms ease-in;
 }
 
-.example-leave {
+.display-who-leave {
   opacity: 1;
 }
 
-.example-leave.example-leave-active {
+.display-who-leave-active {
   opacity: 0.01;
   transition: opacity 300ms ease-in;
 }
 
 /* ------------------------------ */
-
 
 @media (max-width: 736px) {
   .section-about--wrapper {

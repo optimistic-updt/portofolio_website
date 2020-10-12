@@ -1,6 +1,5 @@
 import React from "react";
 import "./SectionHero.css";
-import { jsx } from "theme-ui";
 
 import RubyLogo from "./Ruby";
 import NodeLogo from "./NodeLogo";
@@ -27,9 +26,9 @@ function SectionHero() {
             <h2>Software Developer</h2>
 
             <div className="icons-wrapper">
-              <RubyLogo />
               <ReactLogo />
               <NodeLogo />
+              <RubyLogo />
             </div>
           </div>
         </Fade>

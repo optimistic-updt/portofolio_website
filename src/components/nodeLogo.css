@@ -1,6 +1,6 @@
 .node-wrapper {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 .node-logo {
@@ -9,9 +9,9 @@
 
 .node-logo path {
   fill: #939393;
-  transition: all ease .5s;
+  transition: all ease 0.5s;
 }
 
 .node-wrapper:hover path {
-  fill: #83CD29;
+  fill: #83cd29;
 }

@@ -1,18 +1,18 @@
 .ruby-wrapper {
   display: inline-block;
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 
 .ruby-logo {
-  height: 46px
+  height: 46px;
 }
 
 .ruby-logo path {
   /* stroke: green; */
   fill: #939393;
-  transition: all ease .5s;
+  transition: all ease 0.5s;
 }
 
 .ruby-wrapper:hover path {
-  fill: #D91404;
+  fill: #d91404;
 }
