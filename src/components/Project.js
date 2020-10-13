@@ -19,8 +19,8 @@ const Project = ({ imgURL, link, title, description, keyword }) => {
     const boxWidth = projectRef.current.clientWidth;
     const distanceFromLeftOfBox = x - projectRef.current.offsetLeft;
     return [
-      -(distanceFromTopOfBox - boxHeight / 2) / 15, // decrease the last number for more "reaction"
-      (distanceFromLeftOfBox - boxWidth / 2) / 18,
+      -(distanceFromTopOfBox - boxHeight / 2) / 20, // decrease the last number for more "reaction"
+      (distanceFromLeftOfBox - boxWidth / 2) / 20,
       1.05,
     ];
   };
