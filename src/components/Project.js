@@ -9,7 +9,7 @@ const Project = ({ imgURL, link, title, description, keyword }) => {
   const projectRef = useRef(null);
   const [props, set] = useSpring(() => ({
     xys: [0, 0, 1],
-    config: { mass: 5, tension: 350, friction: 35 },
+    config: { mass: 5, tension: 350, friction: 40 },
   }));
 
   const calc = (x, y) => {
@@ -19,7 +19,7 @@ const Project = ({ imgURL, link, title, description, keyword }) => {
     const boxWidth = projectRef.current.clientWidth;
     const distanceFromLeftOfBox = x - projectRef.current.offsetLeft;
     return [
-      -(distanceFromTopOfBox - boxHeight / 2) / 20, // decrease the last number for more "reaction"
+      -(distanceFromTopOfBox - boxHeight / 2) / 20,
       (distanceFromLeftOfBox - boxWidth / 2) / 20,
       1.05,
     ];
@@ -29,7 +29,7 @@ const Project = ({ imgURL, link, title, description, keyword }) => {
     <a href={link} target="blank" ref={projectRef}>
       <animated.div
         className="project-square"
-        onMouseMove={({ clientX: x, pageY: y }) => set({ xys: calc(x, y) })}
+        // onMouseMove={({ clientX: x, pageY: y }) => set({ xys: calc(x, y) })}
         onMouseLeave={() => set({ xys: [0, 0, 1] })}
         style={{
           transform: props.xys.interpolate(trans),
