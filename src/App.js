@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { ThemeProvider } from "theme-ui";
 import theme from "./theme";
 import { useMediaQuery } from "react-responsive";
-import ThemeContext from "./ThemeContext";
 
 import "./App.css";
 import "./grid.css";
@@ -15,6 +14,7 @@ import SectionProjects from "./components/SectionProjects";
 import SectionAbout from "./components/SectionAbout";
 import SectionContact from "./components/SectionContact";
 import Footer from "./components/Footer";
+import SectionWork from "./components/SectionWork";
 
 const NavBarRendering = () => {
   const isDesktopOrLaptop = useMediaQuery({
@@ -42,6 +42,7 @@ function App() {
         <NavBarRendering />
 
         <SectionHero />
+        <SectionWork />
         <SectionProjects />
         <SectionAbout />
         <SectionContact />

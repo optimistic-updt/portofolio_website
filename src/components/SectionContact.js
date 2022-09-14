@@ -23,7 +23,7 @@ function SectionContact() {
         </p>
         <p className="p--socials">
           But if that&apos;s not possible, I like to virtually hang on{" "}
-          <a href="https://twitter.com/CumulusGround" target="blank">
+          <a href="https://twitter.com/optimistic_updt" target="blank">
             Twitter
           </a>{" "}
           and{" "}
@@ -34,17 +34,14 @@ function SectionContact() {
         </p>
         <p>
           For graphical evidence of my life, you can jump on{" "}
-          <a href="https://www.instagram.com/kevinthemix/" target="blank">
+          <a href="https://www.instagram.com/optimistic_update/" target="blank">
             Instagram
           </a>
-          . I&apos;m also developing my essay writing skills on{" "}
-          <a href="https://medium.com/@cumulusground" target="blank">
-            Medium
-          </a>
+          .
         </p>
 
         <a
-          href="/images/kevin_garcia_fernandez_software_developer_resume.pdf"
+          href="/images/kevin-gf-resume-2022.pdf"
           target="blank"
           className="button resume-button"
         >

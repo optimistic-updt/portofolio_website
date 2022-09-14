@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { CSSTransitionGroup } from "react-transition-group";
 import "./SectionAbout.css";
 
 import AboutCategories from "./AboutCategories";
@@ -10,14 +9,15 @@ import BackgroundStory from "./about_paragraphs/Background";
 
 import Fade from "react-reveal/Fade";
 
+const categories = [
+  "who am i?",
+  "what do i believe in?",
+  "What interests me",
+  "my story",
+];
+
 function SectionAbout() {
   const [activeKey, setActiveKey] = useState(0);
-  const [categories, setCategories] = useState([
-    "who am i?",
-    "what do i believe in?",
-    "What interests me",
-    "my story",
-  ]);
 
   // const [height, setHeight] = useState(null);
 
